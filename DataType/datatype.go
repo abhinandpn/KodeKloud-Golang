@@ -28,3 +28,17 @@ func InputStr() {
 	fmt.Scanf("%s", &name)
 	fmt.Println("Your name is : ", name)
 }
+
+func MultIput() {
+	var a string
+	var b int
+
+	fmt.Println("enter a string and initger")
+
+	count, err := fmt.Scanf("%s %d", &a, &b)
+
+	fmt.Println("count : ", count)
+	fmt.Println("error : ", err)
+	fmt.Println("a : ", a)
+	fmt.Println("b : ", b)
+}
