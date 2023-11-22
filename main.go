@@ -3,5 +3,5 @@ package main
 import datatype "github.com/abhinandpn/KodeKloud-Golang/DataType"
 
 func main() {
-	datatype.VarDisplay()
+	datatype.InputStr()
 }

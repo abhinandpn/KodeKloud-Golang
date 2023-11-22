@@ -21,3 +21,10 @@ func VarDisplay() {
 
 	fmt.Println("name is ", first+last)
 }
+
+func InputStr() {
+	var name string
+	fmt.Print("Enter your name : ")
+	fmt.Scanf("%s", &name)
+	fmt.Println("Your name is : ", name)
+}
