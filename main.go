@@ -1,7 +1,9 @@
 package main
 
-import datatype "github.com/abhinandpn/KodeKloud-Golang/DataType"
+import (
+	"github.com/abhinandpn/KodeKloud-Golang/interfaces"
+)
 
 func main() {
-	datatype.MultIput()
+	interfaces.Run()
 }
