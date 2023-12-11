@@ -1,3 +1,3 @@
 # KodeKloud-Golang
 
-## Repository that study Golang Basics From KodeKloud Course
+## Repository that study Golang Basic to Advance From KodeKloud Course
