@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/abhinandpn/KodeKloud-Golang/oprators"
+	elseif "github.com/abhinandpn/KodeKloud-Golang/ElseIF"
 )
 
 func main() {
-	Ans := oprators.RightShift(212)
-	fmt.Println(Ans)
+	elseif.Run()
 }
