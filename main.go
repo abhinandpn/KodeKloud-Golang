@@ -1,9 +1,12 @@
 package main
 
 import (
-	"github.com/abhinandpn/KodeKloud-Golang/interfaces"
+	"fmt"
+
+	"github.com/abhinandpn/KodeKloud-Golang/oprators"
 )
 
 func main() {
-	interfaces.Run()
+	Ans := oprators.RightShift(212)
+	fmt.Println(Ans)
 }
